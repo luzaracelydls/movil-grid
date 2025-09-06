@@ -1,0 +1,52 @@
+.grid{
+  display: grid;
+  grid-template-columns: repeat(12, 1fr); 
+  gap: 8px; 
+}
+
+[class*="col-"] {
+  padding: 8px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+
+.flex-grid{
+  display: block;
+  width: 100%;
+}
+
+.row{
+  display:flex;
+  flex-wrap: no-wrap;
+}
+/*Establecer Grid*/
+.flex-grid .columns-12 {}
+.flex-grid .columns-11 {}
+.flex-grid  .columns-10 {}
+.flex-grid  .columns-9 {}
+.flex-grid  .columns-8 {}
+.flex-grid  .columns-7 {}
+.flex-grid  .columns-6 {}
+.flex-grid  .columns-5 {}
+.flex-grid  .columns-4 {}
+.flex-grid  .columns-3 {}
+.flex-grid  .columns-2 {}
+.flex-grid  .columns-1 {}
+
+.grid .columns-12 {
+  grid-column: span 11; 
+}
+
+/*Completar*/
+.columns-11 {}
+.columns-10 {}
+.columns-9 {}
+.columns-8 {}
+.columns-7 {}
+.columns-6 {}
+.columns-5 {}
+.columns-4 {}
+.columns-3 {}
+.columns-2 {}
+.columns-1 {}
